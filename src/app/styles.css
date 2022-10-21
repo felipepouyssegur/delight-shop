@@ -1,0 +1,22 @@
+html {
+    background-color: black;
+}
+
+.box {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.logo-carrito {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.bienvenida {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 24px;
+}
