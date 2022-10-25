@@ -1,0 +1,25 @@
+import React, { useState } from 'react'
+
+const ItemCount = ({miStock}) => {
+
+const [contador, setContador] = useState(1)
+
+const agregarContador = () => {
+    setContador(contador + 1)
+}
+const restarContador = () => {
+    setContador(contador - 1)
+}
+
+  return (
+    <div className='button-div'>
+        <p>HOODIE FIRE</p>
+        <p>Stock disponible: {miStock}</p>
+        <button onClick={restarContador} disabled={contador <= 0 ? true : false}>-</button>
+        <p>{contador}</p>
+        <button  onClick={agregarContador} disabled={contador >= miStock ? true : false}>+</button>
+    </div>
+  )
+}
+
+export default ItemCount

@@ -1,6 +1,6 @@
-html {
+/* html {
     background-color: black;
-}
+} */
 
 .box {
     background-color: red;
@@ -19,4 +19,21 @@ html {
     margin-left: 30px;
     margin-top: 20px;
     font-size: 24px;
+}
+
+.button-div{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.button-div button {
+    padding: 10px;
+}
+
+.button-div p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-width: 2px;
 }
