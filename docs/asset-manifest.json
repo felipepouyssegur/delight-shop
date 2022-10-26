@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.01ba824e.js",
-    "index.html": "/index.html",
-    "main.01ba824e.js.map": "/static/js/main.01ba824e.js.map"
+    "main.css": "/delight-shop/static/css/main.43123f93.css",
+    "main.js": "/delight-shop/static/js/main.002ef09f.js",
+    "static/media/cart.png": "/delight-shop/static/media/cart.96c73cb49987ccdf1154.png",
+    "index.html": "/delight-shop/index.html",
+    "main.43123f93.css.map": "/delight-shop/static/css/main.43123f93.css.map",
+    "main.002ef09f.js.map": "/delight-shop/static/js/main.002ef09f.js.map"
   },
   "entrypoints": [
-    "static/js/main.01ba824e.js"
+    "static/css/main.43123f93.css",
+    "static/js/main.002ef09f.js"
   ]
 }

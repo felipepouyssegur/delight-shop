@@ -15,9 +15,9 @@ const restarContador = () => {
     <div className='button-div'>
         <p>HOODIE FIRE</p>
         <p>Stock disponible: {miStock}</p>
-        <button onClick={restarContador} disabled={contador <= 0 ? true : false}>-</button>
+        <button onClick={restarContador} disabled={contador <= 0}>-</button>
         <p>{contador}</p>
-        <button  onClick={agregarContador} disabled={contador >= miStock ? true : false}>+</button>
+        <button  onClick={agregarContador} disabled={contador >= miStock}>+</button>
     </div>
   )
 }
