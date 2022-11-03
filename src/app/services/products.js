@@ -26,6 +26,15 @@ export const getProducts = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(products);
-    }, 0);
+    }, 3000);
+  });
+};
+
+export const getProduct = (id) => {
+  console.log(products);
+  return new Promise((res) => {
+    setTimeout(() => {
+      res(products.find((prod) => prod.id === id));
+    }, 2000);
   });
 };

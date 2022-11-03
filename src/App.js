@@ -1,6 +1,5 @@
-import NavBar from "./app/components/NavBar";
-import ItemCount from "./app/components/ItemCount";
-import ItemListContainer from "./app/components/ItemListContainer";
+import ItemDetailContainer from "./app/components/ItemDetailContainer";
+import Router from "./app/Router";
 import "./app/styles.css";
 
 const App = () => {
@@ -8,9 +7,7 @@ const App = () => {
 
   return (
     <div>
-      <NavBar></NavBar>
-      <ItemListContainer></ItemListContainer>
-      <ItemCount miStock={miStock}></ItemCount>
+      <Router />
     </div>
   );
 };

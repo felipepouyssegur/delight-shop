@@ -3,7 +3,7 @@ import { useState } from "react";
 import { getProducts } from "../services/products";
 import ItemList from "./ItemList";
 
-const ItemListContainer = ({ greetings }) => {
+const ItemListContainer = () => {
   const [datos, setDatos] = useState([]);
   useState(() => {
     getProducts().then((data) => {
