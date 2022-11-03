@@ -37,3 +37,46 @@
     margin-top: 10px;
     border-width: 2px;
 }
+
+
+/* PRODUCTOS */
+
+.glasses {
+    display: block;
+    border: #555556 solid 1px;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.glasses .glasses_box {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+
+.glasses .glasses_box p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.glasses img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.glasses button {
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: rgb(53, 53, 53);
+}
+
+.nombre {
+    padding-top: 30px;
+}
+
+
+
+
