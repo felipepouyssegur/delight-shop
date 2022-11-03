@@ -1,0 +1,26 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Buzo",
+        "precio": 12000,
+        "stock":5,
+        "imagen": "../assets/img/remeraml.jpeg"
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Hoodie",
+        "precio": 14000,
+        "stock":7,
+        "imagen": "../assets/img/hoodie.png"
+    },    
+    {
+        "id": 3,
+        "nombre": "Gorro",
+        "precio": 7000,
+        "stock":12,
+        "imagen": "../assets/img/gorro.png"
+    }
+]
+
