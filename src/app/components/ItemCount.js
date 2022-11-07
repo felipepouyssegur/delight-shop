@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import {useState} from 'react';
 
-const ItemCount = ({miStock}) => {
+const ItemCount = ({stock}) => {
 
 const [contador, setContador] = useState(1)
 
@@ -13,11 +13,10 @@ const restarContador = () => {
 
   return (
     <div className='button-div'>
-        <p>HOODIE FIRE</p>
-        <p>Stock disponible: {miStock}</p>
+        <p>Stock disponible: {stock}</p>
         <button onClick={restarContador} disabled={contador <= 0}>-</button>
         <p>{contador}</p>
-        <button  onClick={agregarContador} disabled={contador >= miStock}>+</button>
+        <button  onClick={agregarContador} disabled={contador >= stock}>+</button>
     </div>
   )
 }
