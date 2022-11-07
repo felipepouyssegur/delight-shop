@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import CartWidget from "./CartWidget";
+import {NavLink} from 'react-router-dom'
 
 function BasicExample() {
   return (
@@ -15,16 +16,12 @@ function BasicExample() {
             <Nav.Link>Home</Nav.Link>
             <Nav.Link href="#link">Tienda</Nav.Link>
             <NavDropdown title="Ropa" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Hoodies</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Sin capucha
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Remeras</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Gorros</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/category/Buzos'>Hoodies</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/category/Remeras'>Remeras</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/category/Gorros'>Gorros</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <CartWidget /> {/* agrego cartwidget como hijo */}
+          <CartWidget /> 
         </Navbar.Collapse>
       </Container>
     </Navbar>

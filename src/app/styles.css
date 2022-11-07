@@ -77,6 +77,25 @@
     padding-top: 30px;
 }
 
+/* ITEM DETAIL */
+
+.item-detail {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+}
+
+.item-detail p{
+    color: #ffffff;
+}
+
+.item-detail img {
+    width: 400px;
+    height: 400px;
+}
 
 
-
+.home{
+    background-color: black;
+}
