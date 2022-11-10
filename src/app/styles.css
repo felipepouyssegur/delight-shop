@@ -2,6 +2,43 @@
     background-color: black;
 } */
 
+@font-face {
+    font-family: 'Rajdhani';
+    src: local('Rajdhani'), url(./assets/font/Logirentdemo-Ea5y8.otf) format('truetype');
+}
+
+* {
+    font-family: Rajdhani, serif;
+    color: #0004;
+}
+
+/* NavBar */
+
+.fondo {
+    background-color: rgba(3, 3, 3, 255)
+}
+
+.navlink {
+    color: #ffffff !important;
+    background-color: rgba(3, 3, 3, 255)
+}
+
+.navlink1 {
+    color: #000000 !important;
+    background-color: rgba(3, 3, 3, 255)
+}
+
+#basic-nav-dropdown {
+    color: #ffffff;
+    background-color: rgba(3, 3, 3, 255)
+}
+
+.gif {
+    height: 100px;
+}
+
+
+
 .box {
     background-color: red;
     width: 300px;
@@ -21,7 +58,7 @@
     font-size: 24px;
 }
 
-.button-div{
+.button-div {
     display: flex;
     margin-left: 30px;
     margin-top: 30px;
@@ -83,10 +120,10 @@
     background-color: black;
     display: flex;
     flex-direction: column;
-    align-items : center;
+    align-items: center;
 }
 
-.item-detail p{
+.item-detail p {
     color: #ffffff;
 }
 
@@ -96,6 +133,6 @@
 }
 
 
-.home{
+.home {
     background-color: black;
 }

@@ -17,6 +17,7 @@ const restarContador = () => {
         <button onClick={restarContador} disabled={contador <= 0}>-</button>
         <p>{contador}</p>
         <button  onClick={agregarContador} disabled={contador >= stock}>+</button>
+        <button>COMPRAR</button>
     </div>
   )
 }

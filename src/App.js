@@ -1,10 +1,14 @@
 import Router from "./app/Router";
 import "./app/styles.css";
+import Provider from "./app/context/CartContext";
+
 
 const App = () => {
   return (
     <div>
-      <Router />
+        <Provider>
+         <Router />
+        </Provider>
     </div>
   );
 };

@@ -4,21 +4,22 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import CartWidget from "./CartWidget";
 import {NavLink} from 'react-router-dom'
+import gif from '../assets/img/gif.gif'
 
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="gray" expand="lg" className="fondo">
       <Container>
-        <Navbar.Brand as={NavLink} to='/'>Delight</Navbar.Brand>
+        <Navbar.Brand as={NavLink} to='/'><img src={gif} alt="gif delight" className="gif"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link as={NavLink} to='/delight-shop'>Home</Nav.Link>
-            <Nav.Link as={NavLink} to='/delight-shop'>Catalogo</Nav.Link>
-            <NavDropdown title="Ropa" id="basic-nav-dropdown">
-              <NavDropdown.Item as={NavLink} to='/category/Buzos'>Hoodies</NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to='/category/Remeras'>Remeras</NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to='/category/Gorros'>Gorros</NavDropdown.Item>
+          <Nav className="me-auto fondo">
+            <Nav.Link as={NavLink} to='/delight-shop' className="navlink">Home</Nav.Link>
+            <Nav.Link as={NavLink} to='/delight-shop' className="navlink">Catalogo</Nav.Link>
+            <NavDropdown title="Ropa" id="basic-nav-dropdown" className="navlink">
+              <NavDropdown.Item as={NavLink} to='/category/Buzos' className="navlink1">Hoodies</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/category/Remeras' className="navlink1">Remeras</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/category/Gorros' className="navlink1">Gorros</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <CartWidget /> 
