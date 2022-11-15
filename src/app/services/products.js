@@ -23,6 +23,7 @@ const products = [
     imagen: "https://i.ibb.co/4295NPv/gorro.png",
     categoria: "Gorros",
   },
+
 ];
 
 /* TODOS los productos. */
@@ -37,7 +38,6 @@ export const getProducts = () => {
 /* Detalle de productos */
 
 export const getProduct = (id) => {
-  console.log(products);
   return new Promise((res) => {
     setTimeout(() => {
       res(products.find((prod) => prod.id === id));
