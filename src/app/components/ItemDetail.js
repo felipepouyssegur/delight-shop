@@ -3,16 +3,23 @@ import "../styles.css";
 import ItemCount from "./ItemCount";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { useContext } from "react";
+import { CartContext } from "../context/CartContext";
 
 const ItemDetail = ({ item }) => {
 
  const [compra, setCompra]= useState(false)
+ const {addToCart} = useContext(CartContext)
+ 
 
  const onAdd = (cantidad) => {
   setCompra(true)
   console.log(`Compraste ${cantidad} de items`)
+  console.log(item, cantidad)
+
+  addToCart(item, cantidad)
  }
+
   return (
     <div className="item-detail">
       <p>{item.nombre}</p>

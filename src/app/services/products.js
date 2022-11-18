@@ -1,15 +1,15 @@
 const products = [
   {
     id: "1",
-    nombre: "HOODIE 'FUTURE'",
+    nombre: "HOODIE FUTURE",
     precio: 12000,
-    stock: 5,
+    stock: 10,
     imagen: "https://i.ibb.co/0Ztfmf4/hoodie.png",
     categoria: "Buzos",
   },
   {
     id: "2",
-    nombre: "REMERA ML 'NO FUTURE'",
+    nombre: "REMERA ML NO FUTURE",
     precio: 14000,
     stock: 7,
     imagen: "https://i.ibb.co/4mQ6p3s/remeraml.png",
@@ -17,7 +17,7 @@ const products = [
   },
   {
     id: "3",
-    nombre: "GORRO 'HUMAN ERROR'",
+    nombre: "GORRO HUMAN ERROR",
     precio: 7000,
     stock: 12,
     imagen: "https://i.ibb.co/4295NPv/gorro.png",
