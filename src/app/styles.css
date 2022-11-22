@@ -145,6 +145,30 @@
 
 /* CART */
 
+
+
+.div-cart {
+    background-color: black;
+    padding-left: 20px;
+}
+
 .titulos-cart {
-    color: black;
+    color: rgb(255, 255, 255);
+}
+
+.precio-producto {
+    color: #ffffff;
+}
+
+.cantidad-producto {
+    color: #ffffff;
+    margin-top: -15px;
+}
+
+.imagen-cart {
+    margin-left: -80px;
+}
+
+.eliminar-item {
+    display: block;
 }
