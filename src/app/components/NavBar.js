@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import CartWidget from "./CartWidget";
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import gif from '../assets/img/gif.gif'
 
 function BasicExample() {
@@ -22,7 +22,7 @@ function BasicExample() {
               <NavDropdown.Item as={NavLink} to='/category/Gorros' className="navlink1">Gorros</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <CartWidget /> 
+          <CartWidget />
         </Navbar.Collapse>
       </Container>
     </Navbar>
