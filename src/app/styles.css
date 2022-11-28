@@ -183,3 +183,15 @@
     width: 40px;
     height: 40px;
 }
+
+.precioTotal {
+    color: white;
+}
+
+.mensaje {
+    color: rgb(255, 255, 255);
+}
+
+.mensaje-back {
+    background-color: #000000;
+}

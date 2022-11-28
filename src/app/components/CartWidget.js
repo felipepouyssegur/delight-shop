@@ -9,7 +9,6 @@ function CartWidget() {
 
   const { cart } = useContext(CartContext)
 
-  console.log(cart)
   return (
     <div className='logo-carrito'>
       <Link to='/cart'><img src={Imagen} alt='foto logo carrito' className='foto-cart' /> </Link>

@@ -14,9 +14,8 @@ const ItemDetail = ({ item }) => {
 
   const onAdd = (cantidad) => {
     setCompra(true)
-    console.log(`Compraste ${cantidad} de items`)
-    console.log(item, cantidad)
-
+    /* console.log(`Compraste ${cantidad} de items`)
+    console.log(item, cantidad) */
     addToCart(item, cantidad)
   }
 

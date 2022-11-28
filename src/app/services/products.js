@@ -2,7 +2,7 @@ const products = [
   {
     id: "1",
     nombre: "HOODIE FUTURE",
-    precio: 12000,
+    precio: 14000,
     stock: 10,
     imagen: "https://i.ibb.co/0Ztfmf4/hoodie.png",
     categoria: "Buzos",
@@ -10,7 +10,7 @@ const products = [
   {
     id: "2",
     nombre: "REMERA ML NO FUTURE",
-    precio: 14000,
+    precio: 10000,
     stock: 7,
     imagen: "https://i.ibb.co/4mQ6p3s/remeraml.png",
     categoria: "Remeras",
@@ -50,7 +50,7 @@ export const getProduct = (id) => {
 export const getProductsByCategory = (category) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(products.filter((prod)=> prod.categoria === category));
+      resolve(products.filter((prod) => prod.categoria === category));
     }, 200);
   });
 };
