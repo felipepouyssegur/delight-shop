@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import { createItem } from '../services/api';
 
 function Formulario() {
+    const [comprador, setComprador] = useState({})
     const [validated, setValidated] = useState(false);
 
     const handleSubmit = (event) => {
@@ -16,7 +17,7 @@ function Formulario() {
         }
         else {
             setValidated(true);
-            createItem()
+            createItem(comprador)
         }
 
 
@@ -25,7 +26,7 @@ function Formulario() {
 
 
 
-    const [comprador, setComprador] = useState({})
+
 
     const datosComprador = (e) => {
         setComprador({
