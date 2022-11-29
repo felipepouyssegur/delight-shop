@@ -15,3 +15,4 @@ export const auth = getAuth(firebaseApp);
 
 // Si descomentas la siguiente línea, cuando mientras que el usuario no se desloguee expresamente o cierre el navegador, permanecerá logueado y podremos acceder a su id desde cualquier página
 setPersistence(auth, browserLocalPersistence);
+
