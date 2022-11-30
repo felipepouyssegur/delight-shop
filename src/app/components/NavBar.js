@@ -8,7 +8,7 @@ import gif from '../assets/img/gif.gif'
 
 function BasicExample() {
   return (
-    <Navbar bg="gray" expand="lg" className="fondo">
+    <Navbar bg="gray" expand="lg" className="fondo sticky-top">
       <Container>
         <Navbar.Brand as={NavLink} to='/'><img src={gif} alt="gif delight" className="gif"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

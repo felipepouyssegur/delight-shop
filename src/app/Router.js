@@ -4,6 +4,7 @@ import ItemListContainer from "./components/ItemListContainer";
 import NavBar from "./components/NavBar";
 import Cart from "./components/Cart";
 import Formulario from "./components/Formulario"
+import Footer from "./components/Footer";
 
 
 const Router = () => {
@@ -18,6 +19,8 @@ const Router = () => {
         <Route path='/cart' element={<Cart />} />
         <Route path="/cart/finalizar-compra" element={<Formulario />} />
       </Routes>
+      <Footer />
+
     </BrowserRouter>
   );
 };

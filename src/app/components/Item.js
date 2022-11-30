@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import { Link } from "react-router-dom";
 
 const Item = ({ data }) => {
@@ -11,7 +11,7 @@ const Item = ({ data }) => {
             <img src={data.imagen} alt="foto del producto" />
             <br />
             <Link to={`/${data.id}`}>
-              <button> Ver Detalle </button>
+              <button className="botondetalle"> Ver Detalle </button>
             </Link>
           </div>
         </div>

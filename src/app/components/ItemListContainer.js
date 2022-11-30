@@ -22,6 +22,9 @@ const ItemListContainer = () => {
 
   return (
     <div>
+      <video autoPlay loop muted id="video">
+        <source src={require("../assets/img/video.mp4")} type="video/mp4" />
+      </video>
       <ItemList products={datos} />
     </div>
   );

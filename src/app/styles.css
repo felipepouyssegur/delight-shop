@@ -10,12 +10,13 @@
 * {
     font-family: Rajdhani, serif;
     color: #0004;
+    scroll-behavior: smooth;
 }
 
 /* NavBar */
 
 .fondo {
-    background-color: rgba(3, 3, 3, 255)
+    background-color: rgba(3, 3, 3, 255);
 }
 
 .navlink {
@@ -40,7 +41,6 @@
 
 
 .box {
-    background-color: red;
     width: 300px;
     height: 300px;
 }
@@ -82,7 +82,8 @@
     display: block;
     border: #555556 solid 1px;
     border-radius: 2px;
-    background-color: black;
+    border-color: black;
+    background: 'https: //streamable.com/ng2rji';
 }
 
 .glasses .glasses_box {
@@ -114,6 +115,13 @@
     padding-top: 30px;
 }
 
+.botondetalle {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
 /* ITEM DETAIL */
 
 .item-detail {
@@ -142,6 +150,10 @@
     color: white;
 }
 
+.boton-comprar {
+    margin-left: 10px;
+}
+
 
 /* CART */
 
@@ -154,6 +166,7 @@
 
 .titulos-cart {
     color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .precio-producto {
@@ -166,11 +179,13 @@
 }
 
 .imagen-cart {
-    margin-left: -80px;
+    width: 200px;
+    height: 200px;
 }
 
 .eliminar-item {
     display: block;
+    width: 30px;
 }
 
 
@@ -186,6 +201,7 @@
 
 .precioTotal {
     color: white;
+    font-size: 20px;
 }
 
 .mensaje {
@@ -194,4 +210,124 @@
 
 .mensaje-back {
     background-color: #000000;
+}
+
+.div {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.botonform {
+    margin-left: 45%;
+}
+
+/* BACKGROUND */
+
+#video {
+    position: fixed;
+    z-index: -1;
+    contain: content;
+    width: 100%;
+}
+
+
+/* FOOTER */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcfcfc;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(84, 84, 84, 0.5998774509803921) 100%, rgba(163, 163, 163, 0.7651435574229692) 100%);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    box-shadow: 0px -5px 5px rgba(104, 35, 131, 0.363);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #fff;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.githublogo {
+    margin-right: 12px;
 }
