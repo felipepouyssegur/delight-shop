@@ -44,10 +44,10 @@ function Formulario() {
     }
 
     return (
-        <>
+        <div className='form'>
             {orderId
-                ? <p>Gracias por tu comprador, su orden de compra es {orderId}</p>
-                : <Form noValidate validated={validated} onSubmit={handleSubmit}>
+                ? <p className='mensajecompra'>Muchas gracias por tu compra, su orden de compra es {orderId}</p>
+                : <Form noValidate validated={validated} onSubmit={handleSubmit} >
                     <Row className="mb-3 justify-content-center">
                         <Form.Group as={Col} md="2" controlId="validationCustom01">
                             <Form.Label>Nombre</Form.Label>
@@ -102,11 +102,12 @@ function Formulario() {
                             label="Agree to terms and conditions"
                             feedback="You must agree before submitting."
                             feedbackType="invalid"
+                            className='formcheck'
                         />
                     </Form.Group>
-                    <Button type="submit" className='botonform'>Submit form</Button>
+                    <Button type="submit" className='botonform btn-dark'>Submit form</Button>
                 </Form>}
-        </>
+        </div>
     );
 }
 

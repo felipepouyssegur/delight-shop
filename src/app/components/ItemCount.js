@@ -13,7 +13,6 @@ const ItemCount = ({ stock, onAdd }) => {
 
   return (
     <div className='button-div'>
-      <p>Stock disponible: {stock}</p>
       <button onClick={restarContador} disabled={contador <= 0}>-</button>
       <p>{contador}</p>
       <button onClick={agregarContador} disabled={contador >= stock}>+</button>

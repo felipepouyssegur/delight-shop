@@ -25,7 +25,7 @@ const ItemDetail = ({ item }) => {
       <p>Unidades disponibles:{item.stock}</p>
       <img src={item.imagen} alt="" />
 
-      {compra ? <><Link to='/cart'><button>Ir al carrito</button></Link>, <Link to='/'><button>Seguir comprando</button></Link></> : <ItemCount stock={item.stock} onAdd={onAdd} />}
+      {compra ? <><Link to='/cart'><button className="iralcarrito">Ir al carrito</button></Link>, <Link to='/'><button className="seguircomprando">Seguir comprando</button></Link></> : <ItemCount stock={item.stock} onAdd={onAdd} />}
 
 
     </div>
