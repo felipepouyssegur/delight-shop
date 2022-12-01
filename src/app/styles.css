@@ -265,7 +265,9 @@
     position: fixed;
     z-index: -1;
     contain: content;
-    width: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 
