@@ -14,6 +14,7 @@ Para inicializar este proyecto escribir en terminal:
 ## Autores
 
 - [@felipepouyssegur](https://www.github.com/felipepouyssegur)
+- [@kevindenichilo](https://github.com/Kevin-De-Nichilo)
 
 
 
